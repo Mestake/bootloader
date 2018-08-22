@@ -71,7 +71,7 @@ pub extern "C" fn load_elf(
     use fixedvec::FixedVec;
     use xmas_elf::program::{ProgramHeader, ProgramHeader64};
 
-    printer::Printer.clear_screen();
+//     printer::Printer.clear_screen();
 
     let mut memory_map = boot_info::create_from(memory_map_addr, memory_map_entry_count);
 
